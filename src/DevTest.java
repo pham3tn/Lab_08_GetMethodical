@@ -5,7 +5,7 @@ public class DevTest {
 
         Scanner in = new Scanner(System.in);
 
-/*
+
         String name = "";
         name =getNonZeroLenString(in,"Enter your name");
         IO.println("You said your name is "+name);
@@ -45,7 +45,7 @@ public class DevTest {
                 IO.println("HELLO");
             }
         }while (getYNConfirm(in,"Do you want to try again?"));
-*/
+
 
         String ssnNum = "";
         ssnNum = getRegExString(in,"Enter your SSN number","^\\d{3}-\\d{2}-\\d{4}$");
